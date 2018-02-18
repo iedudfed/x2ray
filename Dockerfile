@@ -2,6 +2,7 @@ FROM alpine:3.7
 
 ENV VER=3.6
 ENV CONFIG_JSON1={\"log\":{\"access\":\"\",\"error\":\"\",\"loglevel\":\"warning\"},\"inbound\":{\"protocol\":\"vmess\",\"port\": 
+ENV PORT=8080
 ENV CONFIG_JSON2=,\"settings\":{\"clients\":[{\"id\":\"
 ENV UUID=91cb66ba-a373-43a0-8169-33d4eeaeb857 
 ENV CONFIG_JSON3=\",\"alterId\":64}]},\"streamSettings\":{\"network\":\"ws\"}},\"inboundDetour\":[],\"outbound\":{\"protocol\":\"freedom\",\"settings\":{}}} 
