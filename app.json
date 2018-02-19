@@ -1,0 +1,6 @@
+{
+  "name": "V2ray",
+  "description": "deploy V2ray to Heroku.",
+  "keywords": ["V2ray"],
+  "buildpacks": [{"url": "heroku/go"}]
+ }
