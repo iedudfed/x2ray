@@ -6,5 +6,10 @@
   ],
   "website": "http://github.com/wangyi2005/v2ray-heroku",
   "repository": "http://github.com/wangyi2005/v2ray-heroku",
-  "image": "heroku/heroku:16"
+  "image": "heroku/heroku:16",
+  "buildpacks": [
+    {
+      "url": "heroku/go"
+    }
+  ]
 }
