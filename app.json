@@ -1,0 +1,10 @@
+{
+  "name": "Start on Heroku: Go",
+  "description": "v2ray App",
+  "keywords": [
+    "v2ray",
+    "go"
+  ],
+  "website": "http://github.com/wangyi2005/v2ray-heroku",
+  "repository": "http://github.com/wangyi2005/v2ray-heroku"
+}
