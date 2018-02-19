@@ -5,11 +5,5 @@
     "v2ray"
   ],
   "website": "https://github.com/wangyi2005/v2ray-heroku",
-  "repository": "https://github.com/v2ray/v2ray-core/tree/v3.9",
-  "image": "heroku/heroku:16",
-  "buildpacks": [
-    {
-      "url": "heroku/go"
-    }
-  ]
+  "repository": "https://github.com/wangyi2005/v2ray-heroku"
 }
