@@ -6,6 +6,6 @@
     "go"
   ],
   "website": "http://github.com/wangyi2005/v2ray-heroku",
-  "repository": "http://github.com/wangyi2005/v2ray-heroku"
+  "repository": "http://github.com/wangyi2005/v2ray-heroku",
   "stack": "heroku-16"
 }
