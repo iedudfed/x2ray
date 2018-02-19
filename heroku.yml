@@ -1,6 +1,4 @@
 build:
-  languages:
-    - go
-
-run:
-  web: v2ray
+  docker:
+    web: Dockerfile
+    
