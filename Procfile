@@ -1,1 +1,0 @@
-web: v2ray
