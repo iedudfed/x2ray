@@ -2,5 +2,6 @@
   "name": "V2ray",
   "description": "deploy V2ray to Heroku.",
   "keywords": ["V2ray"],
-  
+  "website": "https://github.com/wangyi2005/v2ray-heroku",
+  "repository": "https://github.com/wangyi2005/v2ray-heroku"
  }
