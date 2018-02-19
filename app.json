@@ -1,0 +1,9 @@
+{
+  "name": "v2ray",
+  "description": "v2ray on Heroku",
+  "keywords": [
+    "v2ray"
+  ],
+  "website": "http://github.com/wangyi2005/v2ray-heroku",
+  "repository": "http://github.com/wangyi2005/v2ray-heroku"
+}
