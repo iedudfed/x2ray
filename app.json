@@ -2,6 +2,12 @@
   "name": "V2ray",
   "description": "deploy V2ray to Heroku.",
   "keywords": ["V2ray"],
+  "env": {
+     "UUID": {
+       "description": "搜索uuidgenerator在线生成自己的UUID",
+       "value": "8fb2b416-d48a-11e7-9296-cec278b6b50a"
+     }   
+  }
   "website": "https://github.com/wangyi2005/v2ray-heroku",
   "repository": "https://github.com/wangyi2005/v2ray-heroku",
   "stack": "container"
