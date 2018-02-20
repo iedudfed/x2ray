@@ -4,10 +4,10 @@
   "keywords": ["V2ray"],
   "env": {
      "UUID": {
-       "description": "搜索uuidgenerator在线生成自己的UUID",
-       "value": "8fb2b416-d48a-11e7-9296-cec278b6b50a"
+       "description": "Vmess协议默认UUID，请输入自己的UUID",
+       "value": "8fd6dadc-0d59-4ae7-93bb-e6b8a231c2c2"
      }   
-  }
+  },
   "website": "https://github.com/wangyi2005/v2ray-heroku",
   "repository": "https://github.com/wangyi2005/v2ray-heroku",
   "stack": "container"
