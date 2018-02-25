@@ -1,7 +1,7 @@
 
 FROM alpine:latest
 
-ENV VER=3.10
+ENV VER=3.9
 ENV CONFIG_JSON1={\"log\":{\"access\":\"\",\"error\":\"\",\"loglevel\":\"warning\"},\"inbound\":{\"protocol\":\"vmess\",\"port\": 
 #ENV PORT=8080
 ENV CONFIG_JSON2=,\"settings\":{\"clients\":[{\"id\":\"
