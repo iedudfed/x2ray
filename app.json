@@ -10,6 +10,10 @@
     "UUID": {
        "description": "Vmess协议默认UUID，请输入自己的UUID",
        "value": "8fd6dadc-0d59-4ae7-93bb-e6b8a231c2c2"
+     },
+    "v2ray.ray.buffer.size": {
+       "description": "每个连接的缓存大小，默认10MB",
+       "value": "10"
      } 
   },
   "website": "https://github.com/wangyi2005/v2ray-heroku",
