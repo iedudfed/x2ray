@@ -6,17 +6,17 @@
     "port": 8080,
     "protocol": "http",
     "listen": "127.0.0.1",
-	  "settings": {}
+    "settings": {}
   },
   "inboundDetour": [
   {
     "port": 1080,
-	  "protocol": "socks",
+    "protocol": "socks",
     "listen": "127.0.0.1",
     "settings": {
       "auth": "noauth",
       "udp": false,
-	    "ip": "127.0.0.1"
+      "ip": "127.0.0.1"
     }
   }
   ],
@@ -24,8 +24,8 @@
     "protocol": "vmess",
     "settings": {
       "vnext": [
-		  {
-		    "address": "herokuapp IP address",  
+      {
+         "address": "herokuapp IP address",  
          "port": 443, 
          "users": [
          {
@@ -37,26 +37,26 @@
      }
      ]
    },
-	"streamSettings": {
-    "network": "ws",
-	  "security": "tls",
-	  "tlsSettings": {
-	    "serverName": "your_app_name.herokuapp.com",
-      "allowInsecure": true
-	  },
-	  "wsSettings": {
-	    "path": "",
-      "headers": {
+   "streamSettings": {
+     "network": "ws",
+     "security": "tls",
+     "tlsSettings": {
+       "serverName": "your_app_name.herokuapp.com",
+       "allowInsecure": true
+      },
+     "wsSettings": {
+       "path": "",
+       "headers": {
           "Host": "your_app_name.herokuapp.com"
-      }
-	  }
+       }
+     }
   },
-	"mux": {
-      "enabled": true,
-      "concurrency": 8
-    }
-  },
-  "outboundDetour": [
+  "mux": {
+    "enabled": true,
+    "concurrency": 8
+  }
+},
+"outboundDetour": [
     {
       "protocol": "freedom",
       "settings": {},
