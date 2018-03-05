@@ -8,6 +8,7 @@
 
 3.客户端可使用websocket+tls传输协议或者 websocket+vmess（auto加密）。
 
+nslookup  us-east-1-a.route.herokuapp.com 8.8.8.8
 
 
 # 参考 
