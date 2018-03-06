@@ -8,7 +8,7 @@
 
 3.客户端配置 client_config.json, 建议使用 websocket+tls+herokuapp IP 传输协议。
 
-nslookup  us-east-1-a.route.herokuapp.com 8.8.8.8
+  nslookup  us-east-1-a.route.herokuapp.com 8.8.8.8
 
 
 # 参考 
