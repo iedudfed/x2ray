@@ -6,7 +6,7 @@
 
   如更新 v2ray 版本，修改 app settings-->Config Vars-->VER，程序自动重启，通过view Logs确认。
 
-3.客户端可使用websocket+tls传输协议或者 websocket+vmess（auto加密）。
+3.客户端配置 client_config.json, 建议使用 websocket+tls+herokuapp IP 传输协议。
 
 nslookup  us-east-1-a.route.herokuapp.com 8.8.8.8
 
