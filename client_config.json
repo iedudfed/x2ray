@@ -41,7 +41,7 @@
      "network": "ws",
      "security": "tls",
      "tlsSettings": {
-       "serverName": "your_app_name.herokuapp.com",
+       "serverName": "windows.com",
        "allowInsecure": true
       },
      "wsSettings": {
