@@ -25,7 +25,7 @@
     "settings": {
       "vnext": [
       {
-         "address": "herokuapp IP address",  
+         "address": "herokuapp_IP  or cn_sniproxy_ip",  
          "port": 443, 
          "users": [
          {
@@ -41,7 +41,7 @@
      "network": "ws",
      "security": "tls",
      "tlsSettings": {
-       "serverName": "windows.com",
+       "serverName": "windows.com or herokuapp.com",
        "allowInsecure": true
       },
      "wsSettings": {
