@@ -1,5 +1,4 @@
 build:
   docker:
     web: Dockerfile
-run:
-  web: v2ray
+
