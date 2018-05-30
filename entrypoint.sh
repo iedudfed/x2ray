@@ -1,4 +1,4 @@
-if [ "$VER = "latest" ]; then
+if [ "$VER" = "latest" ]; then
   cd /v2raybin
   wget http://storage.googleapis.com/v2ray-docker/v2ray 
   wget http://storage.googleapis.com/v2ray-docker/v2ctl
