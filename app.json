@@ -4,8 +4,8 @@
   "keywords": ["V2ray"],
   "env": {
     "VER": {
-       "description": "输入v2ray Core 版本",
-       "value": "3.15"
+       "description": "输入v2ray Core 版本号（latest表示最新版本）",
+       "value": "latest"
      }, 
     "UUID": {
        "description": "Vmess协议默认UUID，请输入自己的UUID",
