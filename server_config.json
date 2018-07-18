@@ -4,7 +4,7 @@
   },
   "inbound": {
     "protocol": "vmess",
-    "port": heroku_port,
+    "port": 66666,
     "settings": {
       "clients": [
         {
