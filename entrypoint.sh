@@ -19,7 +19,7 @@ chmod +x v2ctl
 #echo -e -n "$UUID" >> config.json
 #echo -e -n "$CONFIG_JSON3" >> config.json
 
-sed -i "s/heroku_port/$PORT/g" config.json
+sed -i "s/66666/$PORT/g" config.json
 sed -i "s/your_uuid/$UUID/g" config.json
 
 ./v2ray
