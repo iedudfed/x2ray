@@ -21,5 +21,5 @@ chmod +x v2ctl
 
 sed -i "s/66666/$PORT/g" config.json
 sed -i "s/your_uuid/$UUID/g" config.json
-cat config.json
+
 ./v2ray
